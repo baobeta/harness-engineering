@@ -5,6 +5,12 @@
 #                   Postgres database, e.g. an instant one from neon.new.
 #                   Use the DIRECT connection string (not the -pooler host):
 #                   DBOS needs session features that PgBouncer poolers break.
+#
+# Optional — use a free OpenAI-compatible provider instead of OpenAI:
+# OPENAI_BASE_URL   e.g. https://api.groq.com/openai/v1
+#                   or   https://generativelanguage.googleapis.com/v1beta/openai/
+# OPENAI_MODEL      e.g. llama-3.3-70b-versatile  /  gemini-3.8-flash
+#                   (OPENAI_API_KEY is then that provider's key)
 
 OPENAI_API_KEY=sk-...
 DATABASE_URL=postgresql://user:password@host/db?sslmode=require
