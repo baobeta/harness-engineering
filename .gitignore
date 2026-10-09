@@ -12,3 +12,4 @@ lessons/.vitepress/dist
 .agents/
 .claude/skills/
 skills-lock.json
+.omc/
